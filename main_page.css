@@ -5,17 +5,17 @@
 	text-align:center;
 	color:white;
 	padding:10px;
-	font-size:20;
+	font-size:30;
 	font-weight:italic;
 	
 }
 .page-header {
     
-	background-color:#999966;
+	background-color:#ffffff;
 	text-align:center;
 	color:black;
-	
-	font-size:20;
+	padding:10px;
+	font-size:30;
 	font-style:italic;
 	
 }
