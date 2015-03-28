@@ -9,9 +9,15 @@
 	font-weight:italic;
 	
 }
+.nav-tabs{
+        background-color:#FFFFCC;
+		color:black;
+}
 .page-header {
-    
-	background-color:#ffffff;
+    background-image:eight.jpg;
+	width:100%; 
+	height:30%;
+	background-color:#B3B3A3;
 	text-align:center;
 	color:black;
 	padding:10px;
