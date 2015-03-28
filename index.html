@@ -11,16 +11,40 @@
 
 </head>
 <body>
-   <div class = "container">
+   <div class = "container-fluid">
      <div class = "page-header">
       <h1>Banking System</h1>
       <p>Live your life ....!</p>
      </div>
-	 <center>
-	 <button type="button" class = "btn btn-success btn-lg"onclick = "location.href='new_user.html'">Sign Up!</button>
-	 <button type="button" class = "btn btn-danger btn-lg" onclick ="location.href='login_page.html'">Sign In!</a></button>
-	 <br><br>
-	 </center>
+	<ul class = "nav nav-tabs" style= "color:black">
+       <li class = "active"><a href="#"><img src="images/home.png" alt="home" width="30" height="30"></img></a></li>
+        <li class ="dropdown">
+            <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class ="caret"></span></a>
+            <ul class ="dropdown-menu">
+            <li><a href="#">Withdraw</a></li>
+            <li><a href="#">Deposit</a></li>
+            <li><a href="#">Balance Enquiry</a></li>
+            <li><a href="#">Transfer</a></li>
+            </ul>
+          </li>	
+		<li><a href="#">Investor Corner</a></li>
+		<li><a href="#">Customer Care</a></li>
+		   <li class ="dropdown">
+            <a class ="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class ="caret"></span></a>
+            <ul class ="dropdown-menu">
+            <li><a href="#">Saving Accounts</a></li>
+            <li><a href="#">Current Accounts</a></li>
+            <li><a href="#">Fixed Deposit and Lockers</a></li>
+            <li><a href="#">Loans</a></li>
+            </ul>
+          </li>	
+		<li><a href="#">Pay Online</a></li>
+        <li><a href="#">Career</a></li>
+         <li><a href="#">Contact_Us</a></li>
+		  <button type="button" class = "btn btn-success btn-lg"onclick = "location.href='new_user.html'">Sign Up!</button>
+	      <button type="button" class = "btn btn-danger btn-lg" onclick ="location.href='login_page.html'">Sign In!</a></button>
+     </ul>		 
+	 <br>
 	  <div class="row">
   <div class="col-md-4">
     <a href="images/service.jpg" class="thumbnail">
