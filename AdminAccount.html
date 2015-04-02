@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+
+<style>
+  
+  	#nav 
+  	{
+    	line-height:30px;
+   		background-color:#eeeeee;
+   		height:480px;
+    	width:210px;
+    	float:left;
+    	color:red;
+    	padding:5px;	      
+	}
+
+	#section 
+	{
+    	width:800px;
+    	float:left;
+    	padding:10px;	
+ 	 
+	}
+
+	#footer 
+	{
+    	background-color:black;
+   		color:white;
+    	clear:both;
+    	text-align:center;
+   		padding:1px;	 	 
+	}
+
+	.jumbotron
+	{
+		height:130px;
+		display: flex;
+		align-items: center;
+	}
+
+</style>  
+</head>
+
+<body>
+
+
+<div class="container-fluid">
+  
+	<div class="jumbotron">
+		<h1>Banking System</h1>
+	</div>
+
+	<div id="nav">
+			<p><b> Admin's Account</b>t</p>
+			<p><b><img src="img\add_list.png" height="50px" width="50px" ><a href="UserList_jsp.jsp" target="cp">User List</a></b></p>
+			<br>
+			<p><b><img src="img\adduser.png" height="50px" width="50px" ><a href="Add-user.html" target="cp">Add user</a></b></p>
+			<br>
+			<p><b><img src="img\removeuser.png" height="50px" width="50px" ><a href="Remove-User.html" target="cp">Remove user</a></b></p>
+			<br>
+			<p><b><img src="img\search.png" height="50px" width="50px" ><a href="SearchUser.html" target="cp">Search user</a></b></p>
+			<br>
+			<p><b><img src="img\power.png" height="50px" width="50px" ><a href="logout_jsp.jsp" >Log Out</a></b></p>
+	</div>
+
+	<div id="section">
+			<iframe src="Default.html" name="cp" width="1100px" height="470px" style="border:none"></iframe>
+	</div>
+
+	<div id="footer">
+			Copyright © Sunil Dahawad
+	</div>
+
+</div>
+</body>
+</html>

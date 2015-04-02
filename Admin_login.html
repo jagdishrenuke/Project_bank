@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+<style>
+#nav {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 480px;
+	width: 210px;
+	float: left;
+	padding: 5px;
+}
+
+#section {
+	width: 500px;
+	float: left;
+	padding: 10px;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 1px;
+}
+
+.jumbotron {
+	height: 130px;
+	display: flex;
+	align-items: center;
+}
+</style>
+
+<script type="text/javascript">
+	function validate(form) {
+
+	//	String uname = document.getElementByName("uname").value;
+	//	String password = document.getElementsByName("upwd").value;
+		
+		var uname=form.uname.value;
+		var password=form.upwd.value;
+		if(uname.localeCompare("123")==0){
+			if(password.localeCompare("sunil")==0)
+				return true;
+			else{
+				alert("Invalid username or password..!");
+				return false;
+			}
+		}
+		else{
+			alert("Invalid username or password..!");
+			return false;
+		}
+	}
+</script>
+
+</head>
+
+<body>
+
+
+
+	<div class="container-fluid">
+
+		<div class="jumbotron">
+			<h1>Banking System</h1>
+		</div>
+
+
+		<div id="nav">
+			<br>Home<br> <br>Contact Details<br> <br>About
+			Us<br>
+		</div>
+
+		<div id="section">
+
+			<div class="container">
+
+				<h2>Admin Login In</h2>
+				<br>
+				<form name="login1" class="form-inline"  onSubmit="return validate(login1)" action="AdminAccount.html">
+
+					User Name :- <input type="text" class="form-control" name="uname" placeholder="Enter ID" required> 
+					Password:- <input type="password" class="form-control" name="upwd" placeholder="Enter password" required>
+
+					<input type="submit" class="btn btn-default" />
+				</form>
+			</div>
+
+		</div>
+
+		<div id="footer">Copyright © Sunil Dahawad</div>
+
+	</div>
+</body>
+</html>
